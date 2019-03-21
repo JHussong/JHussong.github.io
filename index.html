@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Kalam:700" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Rokkitt:600" rel="stylesheet">
     <title>My Portfolio</title>
 </head>
 <body>
 <!--NavBar-->
-    <div class="container">
+    <div class="container" id="top">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -24,160 +24,152 @@
                 <a class="nav-link" href="#"><i class="fas fa-home"></i><span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-code"></i></a>
+                <a class="nav-link" href="#projects"><i class="fas fa-code"></i></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fas fa-camera-retro"></i></a>
+                <a class="nav-link" href="#projects"><i class="fas fa-camera-retro"></i></a>
                 </li>
             </ul>
             <span class="navbar-text">
-                    <i class="far fa-envelope"></i>
-                    <i class="fab fa-linkedin"></i>
-                    <i class="fab fa-github-square"></i>
+                <a href="#contact"><i class="far fa-envelope"></i></a>    
+                <a href="https://www.linkedin.com/" target="blank"><i class="fab fa-linkedin"></i></a> 
+                <a href="https://github.com/JHussong " target="blank"><i class="fab fa-github-square"></i></a>
             </span>
             </div>
         </nav>
     </div>
+<br>
+<br>
+<br>
+    <span>
+        <h1 style="text-align:center">//Joe Hussong</h1>
+    </span>
+<br>
+<br>
 <!--About-->
     <div class="container">
-        <h2>{  About Me  }</h2>
+        <h2 id="aboutme" style="text-align:center">{  About Me:  }</h2>
+        <br>
+        <br>
+        <br>
         <div class="col">
-            <p>
-            But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and
-            I will give you a complete account of the system, and expound the actual teachings of the great explorer of
-            the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself,
-            because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter
-            consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain
-            of itself, because it is pain, but occasionally circumstances occur in which toil and pain can procure
-            him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise,
-            except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy
-            a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure? 
-            </p>
+            <h4 style="font-family: 'Rokkitt', serif; text-align: center">
+              My name is Joe and I am currently on the difficult journey of learning how to code. In the last decade I have twice found
+              myself unemployed and trying to figure out what to do next. The first time was a company closure and the second time
+              was a company deciding to do things differently. With the last instance of job loss I decided that from now on things will 
+              be different and I will make the rules. I decided to take the plunge into the world of programming. It is a way for for me to 
+              gain skills that will allow me to never worry again about losing a job and also a new way to create something. On the rare chance
+              that I actually leave my computer and this process of learning, I can most likely be found taking pictures with either a Sony camera
+              or my phone. I find the creation of any kind of art to be a small way to make the universe a better place.
+            </h4>
         </div>    
     </div>
 
+    <br>
+    <br>
+    <br>
+
 <!--Projects and Pictures-->
-    <div>
-        <span>
-            <h2>("Projects" && "Pictures")</h2>
-        </span>
+
+    <div id="div1">
+      <span>
+        <h2 style="text-align:center">("Projects" && "Pictures")</h2>
+      </span>
     </div>
 
-    <section>
-        <div class="row">
-            <div class="column">
-                <img src="/assets/pics/DnD.jpg" alt="Dnd" style="width: 100%">
-            </div>
-            <div class="column">
-                <img src="/assets/pics/alleyinsnow.jpg" alt="" style="width: 100%">
-            </div>
-            <div class="column">
-                <img src="/assets/pics/night.jpg" alt="" style="width: 100%">
-            </div>
-        </div>
-        <div>
-            <div class="column">
-                <img src="/assets/pics/waterwheel.jpg" alt="Dnd" style="width: 100%">
-            </div>
-            <div class="column">
-                <img src="/assets/pics/camelinafez.jpg" alt="" style="width: 100%">
-            </div>
-            <div class="column">
-                <img src="/assets/pics/darkdoor.jpg" alt="" style="width: 100%">
-            </div>
-        </div>
-    </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-     <!--Contact-->
-     <section id="contact">
-        <div class="container">
-            <br>
-            <br>
-          <h2 class="text-center text-uppercase">Contact Me</h2>
-          <div class="row">
-            <div class="col-12">
-              <form action="https://formspree.io/jchussong@gmail.com" method="POST">
-                <div class="control-group">
-                  <div class="form-group">
-                    <label>Name</label>
-                    <input 
-                      type="text" 
-                      class="form-control" 
-                      placeholder="Your Name" 
-                      id="name" 
-                      required 
-                      data-validation-required-message="Please enter your name"
-                      name="name"
-                      >
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <div class="form-group">
-                    <label>Email Address</label>
-                    <input 
-                      type="email" 
-                      class="form-control" 
-                      placeholder="Your Email" 
-                      id="email" 
-                      required 
-                      data-validation-required-message="Please enter your email"
-                      name="_replyto"
-                    >
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="control-group">
-                  <div class="form-group">
-                    <textarea 
-                      class="form-control" 
-                      rows="7" 
-                      placeholder="Your Message" 
-                      id="message" 
-                      required 
-                      data-validation-required-message="Please leave a message"
-                      name="message"
-                    ></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="text-center">
-                  <div id="success"></div>
-                  <button type="submit" class="btn btn-lg btn-red">
-                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                    Send Message
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>  
+    <div class="container2">
+      <span id="projects">
+        <a href="https://codepen.io/JHussong/pen/ZPpaad" target="blank"><img class="photo-egg" src="/assets/pics/eggman.jpg" alt="CSS Creature Project"></a> 
+      </span>
+      <span>
+        <a href="https://myliverpoolapiproject.firebaseapp.com/" target="blank"><img class="lfcpic" src="/assets/pics/LFC.jpg" alt="API Project Link"></a>
+      </span>
+      <span>
+        <a href="https://github.com/JHussong/Tutorial-Webpage" target="blank"><img class="jspage" src="/assets/pics/code.jpg" alt="JavaScript Tutorial Project"></a>
+      </span>
+    </div>  
+    <hr>
+    <div class="container3">
+      <span>
+        <a href="/assets/pics/gringotts.jpg" target="blank"><img id="bank" src="/assets/pics/gringotts.jpg" alt=""></a> 
+      </span>
+      <span>
+        <a href="/assets/pics/sparklers.jpg" target="blank"><img id="eve" src="/assets/pics/sparklers.jpg" alt=""></a>
+      </span>
+      <span>
+        <a href="/assets/pics/darkdoor.jpg" target="blank"><img id="door" src="/assets/pics/darkdoor.jpg" alt=""></a>
+      </span>
+      <span>
+        <a href="/assets/pics/monorail.jpg" target="blank"><img id="mono" src="/assets/pics/monorail.jpg" alt=""></a>
+      </span>
+    </div> 
+    <br>
+    <br>  
+<!--Contact-->
+    <section id="contact">
+       <div class="container-bottom" style="background-color: rgba(7, 4, 4, 0.281)">
+         <h2 class="text-center text-uppercase">Contact Me</h2>
+         <div class="row">
+           <div class="col-12">
+             <form action="https://formspree.io/jchussong@gmail.com" method="POST">
+               <div class="control-group">
+                 <div class="form-group">
+                   <label>Name</label>
+                   <input 
+                     type="text" 
+                     class="form-control" 
+                     placeholder="Your Name" 
+                     id="name" 
+                     required 
+                     data-validation-required-message="Please enter your name"
+                     name="name"
+                     >
+                   <p class="help-block text-danger"></p>
+                 </div>
+               </div>
+               <div class="control-group">
+                 <div class="form-group">
+                   <label>Email Address</label>
+                   <input 
+                     type="email" 
+                     class="form-control" 
+                     placeholder="Your Email" 
+                     id="email" 
+                     required 
+                     data-validation-required-message="Please enter your email"
+                     name="_replyto"
+                   >
+                   <p class="help-block text-danger"></p>
+                 </div>
+               </div>
+               <div class="control-group">
+                 <div class="form-group">
+                   <textarea 
+                     class="form-control" 
+                     rows="7" 
+                     placeholder="Your Message" 
+                     id="message" 
+                     required 
+                     data-validation-required-message="Please leave a message"
+                     name="message"
+                   ></textarea>
+                   <p class="help-block text-danger"></p>
+                 </div>
+               </div>
+               <div class="text-center">
+                 <div id="success"></div>
+                 <button type="submit" class="btn btn-lg btn-red">
+                   <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                   Send Message
+                 </button>
+               </div>
+             </form>
+           </div>
+         </div>
+       </div>
+     </section>
+     <footer>
+       <p style="font-family: 'Rokkitt', serif;">Joe Hussong</p>
+     </footer>
 </body>
 </html>

@@ -1,0 +1,71 @@
+
+
+img{
+  width: 35%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.photo-egg{
+  width: 25%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.jspage{
+  width: 15%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.lfcpic{
+  width: 55%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.container2{
+  width:50%;
+  margin:0 auto;
+  text-align: center;
+}
+
+.container2 span{
+   width:30%; margin:0 1%;
+}
+
+.container3{
+  width:50%;
+  margin: auto;
+  text-align: center;
+  display: inline-table;
+  margin-left: 500px;
+}
+
+.container3 span{
+   width:30%; margin:0 1%;
+}
+
+#bank{
+  width: 18%;
+  height: auto;
+  border-radius: 50%;
+}
+
+#eve{
+  width: 18%;
+  height: auto;
+  border-radius: 50%;
+}
+
+#door{
+  width: 18%;
+  height: auto;
+  border-radius: 50%;
+}
+
+#mono{
+  width: 18%;
+  height: auto;
+  border-radius: 50%;
+}
